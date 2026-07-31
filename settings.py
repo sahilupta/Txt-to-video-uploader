@@ -118,7 +118,7 @@ def register_settings_handlers(bot):
             "<b>[🎥]Vid Id</b> : {str(count).zfill(3)}\n"
             "**Video Title :** `{name1} [{res}p].{ext}`\n"
             "<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n"
-            "**Extracted by➤**{CR}\n"
+            "**Extracted by➤**{✧𝒮𝒶𝒽𝒾𝓁 ✧}\n"
             "✪━━━━━━━━━━━━━━━━✪\n\n\n\n"
             "**Caption Style 2**\n"
             "✪━━━━━━━★━━━━━━━✪\n"
@@ -127,7 +127,7 @@ def register_settings_handlers(bot):
             "**├── Extention :  {extension}.{ext}**\n"
             "**├── Resolution : [{res}]**\n"
             "<blockquote>📚 **Course : {b_name}**</blockquote>\n\n"
-            "🌟 **Extracted By : {credit}**\n"
+            "🌟 **✧𝐸𝓍𝓉𝓇𝒶𝒸𝓉𝑒𝒹 𝒷𝓎 𝒮𝒶𝒽𝒾𝓁 ✧**\n"
             f"✪━━━━━━━━━━━━━━━━✪\n\n\n\n"
             "**Caption Style 3**\n"
             f"✪━━━━━━━★━━━━━━━✪\n"
@@ -229,7 +229,7 @@ def register_settings_handlers(bot):
         input_msg = await bot.listen(editable.chat.id)
         try:
             if input_msg.text.lower() == "/d":
-                globals.CR = f"{CREDIT}"
+                globals.CR = f"{✧𝒮𝒶𝒽𝒾𝓁 ✧}"
                 await editable.edit(f"✅ Credit set to default !", reply_markup=keyboard)
             else:
                 globals.CR = input_msg.text
