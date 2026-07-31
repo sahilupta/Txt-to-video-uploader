@@ -123,7 +123,7 @@ def register_youtube_handlers(bot):
                         await prog.delete(True)
                         print(f"File {name}.mp3 exists, attempting to send...")
                         try:
-                            await bot.send_document(chat_id=m.chat.id, document=f'{name}.mp3', caption=f'**🎵 Title : **[{str(count).zfill(3)}] - {name1}.mp3\n\n🔗**Video link** : {url}\n\n🌟** Extracted By **: {CREDIT}')
+                            await bot.send_document(chat_id=m.chat.id, document=f'{name}.mp3', caption=f'**🎵 Title : **[{str(count).zfill(3)}] - {name1}.mp3\n\n🔗**Video link** : {url}\n\n🌟** ✧𝐸𝓍𝓉𝓇𝒶𝒸𝓉𝑒𝒹 𝒷𝓎 : 𝒮𝒶𝒽𝒾𝓁 ✧')
                             os.remove(f'{name}.mp3')
                             count+=1
                         except Exception as e:
