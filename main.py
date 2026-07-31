@@ -49,7 +49,7 @@ async def start(bot, m: Message):
             f"➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n"
             f"➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n"
             f"➠ For Guide Use button - **✨ Commands** 📖\n\n"
-            f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [{✧𝒮𝒶𝒽𝒾𝓁 ✧}](tg://openmessage?user_id={OWNER}) 🦁"
+            f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [SAHIL BOTS](tg://openmessage?user_id={OWNER}) 🦁"
         )
     else:
         caption = (
