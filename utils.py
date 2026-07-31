@@ -23,9 +23,9 @@ def hrb(value, digits= 2, delim= "", postfix=""): #SAHIL BOTS
     """ #SAHIL BOTS
     if value is None: #SAHIL BOTS
         return None #SAHIL BOTS
-    chosen_unit = "B" #SAHIL BOTS
+        chosen_unit = "B" #SAHIL BOTS
     for unit in ("KB", "MB", "GB", "TB"): #SAHIL BOTS
-       if value > 1000: #SAHIL BOTS
+        if value > 1000: #SAHIL BOTS
             value /= 1024 #SAHIL BOTS
             chosen_unit = unit #SAHIL BOTS
         else: #SAHIL BOTS
