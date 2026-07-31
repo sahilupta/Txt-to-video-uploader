@@ -28,7 +28,7 @@ def register_upgrade_handlers(bot):
           f"💎 <b>Membership - 10 INR / Month</b>\n"
           f"━━━━━━━━━━━━━━━━━━━━━━\n\n"
           f"📬 <b>Want to Join?</b>\n"
-          f"💬 Contact ➡️ [{CREDIT}](tg://user?id={✧𝒮𝒶𝒽𝒾𝓁 ✧}) to activate your access."
+          f"💬 Contact ➡️ [{CREDIT}](tg://user?id={S𝒶𝒽𝒾𝓁 }) to activate your access."
       )
     
       await callback_query.message.edit_media(
