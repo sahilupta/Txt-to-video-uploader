@@ -350,7 +350,7 @@ async def drm_handler(bot: Client, m: Message):
                 else:
                     if topic == "/yes":
                         if caption == "/cc1":
-                            cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{v_name} [{res}p].mkv`\n<blockquote><b>Batch Name : {b_name}\nTopic Name : {t_name}</b></blockquote>\n\n**} 𝐸𝓍𝓉𝓇𝒶𝒸𝓉𝑒𝒹 𝒷𝓎 ➤ 𝒮𝒶𝒽𝒾𝓁\n'
+                            cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{v_name} [{res}p].mkv`\n<blockquote><b>Batch Name : {b_name}\nTopic Name : {t_name}</b></blockquote>\n\n** 𝐸𝓍𝓉𝓇𝒶𝒸𝓉𝑒𝒹 𝒷𝓎 ➤ 𝒮𝒶𝒽𝒾𝓁\n'
                             cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{v_name}.pdf`\n<blockquote><b>Batch Name : {b_name}\nTopic Name : {t_name}</b></blockquote>\n\n** 𝐸𝓍𝓉𝓇𝒶𝒸𝓉𝑒𝒹 𝒷𝓎 ➤ 𝒮𝒶𝒽𝒾𝓁\n'
                             cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{v_name}.zip`\n<blockquote><b>Batch Name : {b_name}\nTopic Name : {t_name}</b></blockquote>\n\n** 𝐸𝓍𝓉𝓇𝒶𝒸𝓉𝑒𝒹 𝒷𝓎 ➤ 𝒮𝒶𝒽𝒾𝓁 \n'
                             ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{v_name}.jpg`\n<blockquote><b>Batch Name : {b_name}\nTopic Name : {t_name}</b></blockquote>\n\n** 𝐸𝓍𝓉𝓇𝒶𝒸𝓉𝑒𝒹 𝒷𝓎 ➤ 𝒮𝒶𝒽𝒾𝓁 \n'
