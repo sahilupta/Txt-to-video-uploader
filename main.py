@@ -58,7 +58,7 @@ async def start(bot, m: Message):
             f"➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n"
             f"**You are currently using the free version.** 🆓\n"
             f"**Want to get started? Press /id**\n\n"
-            f"💬 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : [{✧SAHIL}](tg://openmessage?user_id={OWNER}) to Get The Subscription ! 🔓\n"
+            f"💬 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : [{SAHIL}](tg://openmessage?user_id={OWNER}) to Get The Subscription ! 🔓\n"
         )
     await bot.send_photo(
         chat_id=m.chat.id,
