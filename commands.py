@@ -67,7 +67,7 @@ def register_commands_handlers(bot):
             f"• Supports batch processing\n"
             f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n\n"
             f"╭────────⊰◆⊱────────╮\n"   
-            f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 💻\n"
+            f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {✧𝒮𝒶𝒽𝒾𝓁 ✧} 💻\n"
             f"╰────────⊰◆⊱────────╯\n"
       )
     
@@ -94,7 +94,7 @@ def register_commands_handlers(bot):
             f"➥ /reset – Reset Bot\n"
             f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"  
             f"╭────────⊰◆⊱────────╮\n"   
-            f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 💻\n"
+            f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {✧𝒮𝒶𝒽𝒾𝓁 ✧} 💻\n"
             f"╰────────⊰◆⊱────────╯\n"
       )
     
