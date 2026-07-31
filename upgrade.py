@@ -25,10 +25,10 @@ def register_upgrade_handlers(bot):
           f"🌐 Non-DRM + AES URLs\n"
           f"🔑 MPD Links (with valid key)</blockquote>\n"
           f"━━━━━━━━━━━━━━━━━━━━━━\n"
-          f"💎 <b>Membership - 100 INR / Month</b>\n"
+          f"💎 <b>Membership - 10 INR / Month</b>\n"
           f"━━━━━━━━━━━━━━━━━━━━━━\n\n"
           f"📬 <b>Want to Join?</b>\n"
-          f"💬 Contact ➡️ [{CREDIT}](tg://user?id={OWNER}) to activate your access."
+          f"💬 Contact ➡️ [{CREDIT}](tg://user?id={✧𝒮𝒶𝒽𝒾𝓁 ✧}) to activate your access."
       )
     
       await callback_query.message.edit_media(
