@@ -229,7 +229,7 @@ def register_settings_handlers(bot):
         input_msg = await bot.listen(editable.chat.id)
         try:
             if input_msg.text.lower() == "/d":
-                globals.CR = f"{✧𝒮𝒶𝒽𝒾𝓁 ✧}"
+                globals.CR = f"{𝒮𝒶𝒽𝒾𝓁 }"
                 await editable.edit(f"✅ Credit set to default !", reply_markup=keyboard)
             else:
                 globals.CR = input_msg.text
