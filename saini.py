@@ -252,7 +252,6 @@ async def send_doc(bot: Client, m: Message, cc, ka, cc1, prog, count, name, chan
     os.remove(ka)
     time.sleep(3) 
 
-
 def decrypt_file(file_path, key):  
     if not os.path.exists(file_path): 
         return False  
